@@ -1,10 +1,11 @@
 import Head from './Head.jsx'
 
 function App() {
+    const userName = "Pragyan"
   return (
       <>
         <Head/>
-        <p>BODY</p>
+        <p>Welcome {userName}</p>
       </>
   )
 }
