@@ -7,15 +7,20 @@ function App() {
 
     const addValue = ()=>{
         if(counter < 20){
-            counter++;
-            setCounter(counter)
+            // setCounter(counter + 1)
+            // setCounter(counter + 1)
+            // setCounter(counter + 1)
+
+            // setCounter return the previous value of variable
+            setCounter((prevCounter) => prevCounter + 1);
+            setCounter((prevCounter) => prevCounter + 1);
+            setCounter((prevCounter) => prevCounter + 1);
         }
     }
 
     const subValue = ()=>{
         if(counter > 0){
-            counter--;
-            setCounter(counter)
+            setCounter(counter - 1)
         }
     }
 
