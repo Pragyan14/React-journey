@@ -12,3 +12,14 @@ Creating a react app using vite
 3. npm install
 
 4. npm run dev
+
+
+Tailwind CSS
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
