@@ -20,7 +20,7 @@ function App() {
         setAmount(convertedAmount);
     }
 
-    // function to convert amount on button click
+    // function to convert amount on form submit
     const convert = () => {
         setConvertedAmount(amount * currencyInfo[to]) //
     }
@@ -57,6 +57,7 @@ function App() {
                                 amount={convertedAmount}
                                 currencyOptions={options}
                                 onAmountChange={(currency) => setTo(from)}
+                                onCurrencyChange={(currency) => setAmount(amount)}
                                 selectCurrency={to}
                                 amountDisable/>
                         </div>

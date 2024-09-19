@@ -23,3 +23,8 @@ content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
