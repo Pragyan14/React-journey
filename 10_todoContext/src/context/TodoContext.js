@@ -3,7 +3,7 @@ import {createContext, useContext} from "react";
 export const TodoContext = createContext({
     todos:[
         {
-            id:Date.now(),
+            id:1,
             todo:"Take break!",
             completed:false
         }
